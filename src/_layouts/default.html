@@ -1,0 +1,19 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="flexBody">
+    {% include page_header.html %}
+    <div class="flexCenter">
+      {% include left_sidebar.html %}
+      <main class="Main-Content__wrapper">
+        {{ content }}
+      </main>
+    </div>
+    {% include page_footer.html %}
+    {% include javascripts.html %}
+  </body>
+</html>

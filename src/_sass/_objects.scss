@@ -1,0 +1,34 @@
+
+.flexBody {
+  height: 100%;
+  margin-top: $navbarHeight;
+  margin-bottom: $navbarHeight;
+}
+
+.flexCenter {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $navbarHeight;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: $navbarHeight;
+}
+
+.left-sidebar {
+  flex: 1;
+  padding: 20px;
+}

@@ -2,7 +2,9 @@
   "name": "slides-inna-box",
   "version": "0.1.0",
   "description": "Creating a reveal.js presentation inside a wrapper web site",
-  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
   "repository": "git@github.com:tamouse/slides-inna-box.git",
   "author": "Tamara Temple <tamouse@gmail.com>",
   "license": "MIT"

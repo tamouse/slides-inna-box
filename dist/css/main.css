@@ -1,0 +1,117 @@
+/* General settings, variables, functions, mixins, etc */
+/* General styles */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: sans-serif;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+/* Styles for base HTML elements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 1.5em; }
+
+h2 {
+  font-size: 1.3em; }
+
+h3 {
+  font-size: 1.2em; }
+
+h4 {
+  font-size: 1.1em; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: 0.9em; }
+
+.flexBody {
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.flexCenter {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll; }
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px; }
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px; }
+
+.left-sidebar {
+  flex: 1;
+  padding: 20px; }
+
+/* Component classes */
+/* Style for the main content area */
+.Main-Content__wrapper {
+  flex: 4; }
+
+.Slideshow__wrapper {
+  overflow: scroll; }
+.Slideshow__frame {
+  overflow: scroll;
+  width: 1024px;
+  height: 768px; }
+
+/* Overrides. Keep this empty! */
